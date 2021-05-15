@@ -1,0 +1,77 @@
+/* --------------------------
+  BASE 
+--------------------------- */
+
+body {
+  padding-top: 5em;
+}
+
+svg {
+  width: 33.33%;
+  float: left;
+}
+
+.gear-icon,
+.hammer-icon,
+.heart-icon{
+  transform-origin: 200px 50px; /*becouse % values doesnt work corect on firecox*/
+}
+
+/* --------------------------
+  GEAR
+--------------------------- */
+.gear-icon{
+  transition: .4s ease-out;
+
+}
+
+.gear:hover .gear-icon{
+  transform:  rotate(45deg) scale(1.3);
+}
+
+
+/* --------------------------
+  HAMMER
+--------------------------- */
+.hammer-bg:hover{
+  transition: .3s ease-out;
+  stroke: orange; /*Border radius */
+  stroke-width: 8px;
+}
+
+.hammer-icon{
+  transition: .3s ease-out;
+}
+
+.hammer:hover .hammer-icon {
+  transform:rotate(45deg);
+}
+
+/* --------------------------
+  HEART
+--------------------------- */
+.heart-icon{
+  transition: .2s ease-out
+}
+
+.heart:hover .heart-icon{
+  transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
